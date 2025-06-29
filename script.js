@@ -19,5 +19,5 @@ let count = 0
        console.log(count)
        document.querySelector(".circle").innerText = "Counter = "+count+""
     })
-// let nae = prompt("What do you want to count")
-//   document.querySelector(".name").innerText = ""+nae+""
+let nae = prompt("What do you want to count")
+document.querySelector(".name").innerText = ""+nae+""
